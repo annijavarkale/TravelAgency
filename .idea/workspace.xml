@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1514326c-9b54-4085-a826-877daf9568b3" name="Changes" comment="Added API Rest for country info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locations/Country.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TravelAgency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TravelAgency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +47,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="helpers.FileHelper" />
       <recent name="api_helpers.RestAPIHelper" />
     </key>
   </component>
@@ -117,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665918636500</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added API Rest for country info">
+      <created>1665919824413</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665919824413</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
