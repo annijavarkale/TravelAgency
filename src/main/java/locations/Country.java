@@ -1,14 +1,17 @@
+package locations;
+
 import tickets.Ticket;
 import transport_types.Transportation;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Country {
     private String officialName;
     private String commonName;
     private String countryCode;
     private String cca2;
-    private ArrayList<String> currencies;
+    private List<String> currencies;
     private ArrayList<String> languages;
     private double area;
     private int population;
