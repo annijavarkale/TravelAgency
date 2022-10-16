@@ -20,9 +20,9 @@ public abstract class Ticket {
         System.out.printf(
                 "$$$$$$$$$$$$$$$$ Tickets $$$$$$$$$$$$$$$$$$$$\n" +
                 "  Full price: %.2f\n" +
-                "    Discount: %.f(%d%%)\n" +
+                "    Discount: %.2f(%d%%)\n" +
                 "       TOTAL: %.2f\n" +
-                "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$",
+                "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n",
                 fullPrice, calculateDiscount(), discountPercentage,
                 calculateTicketPrice());
     }

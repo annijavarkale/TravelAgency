@@ -49,11 +49,23 @@ public class Country {
                 "Currencies: %s\n" +
                 "Languages spoken: %s\n" +
                 "Area: %.2f | Population: %d | Density %.3f\n" +
-                "---------------------%s---------------------",
+                "---------------------%s---------------------\n",
             officialName, commonName, countryCode, cca2,
             currencies, languages, area, population,
             populationDensity(), populateCharFiller('-')
         );
+        if (transportation != null) {
+            transportation.printCheckList();
+            System.out.printf("---------------------%s---------------------\n", populateCharFiller('-'));
+        }
+
+        if (ticket != null) {
+            ticket.printTicketPrice();
+            ticket.placeAd();
+            System.out.printf("---------------------%s---------------------\n", populateCharFiller('-'));
+        }
+
+        System.out.printf("*********************%s*********************\n\n", populateCharFiller('*'));
     }
 
     private String populateCharFiller(char character) {

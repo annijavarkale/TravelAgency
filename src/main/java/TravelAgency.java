@@ -45,16 +45,11 @@ public class TravelAgency {
         currencies.add("EUR");
         languages.add("Latvian");
 
-        StudentTicket studentTicket = new StudentTicket(100.00);
-
-        Ticket ticket = new StudentTicket(200.00);
-
-        Car car = new Car();
-        Transportation t = new Plane();
-
         Country testCountry = new Country("Republic of Latvia",
                 "Latvia", "LAT", "LV",
                 currencies, languages, 64540.00, 1900000);
+        testCountry.setTransportation(new Plane());
+        testCountry.setTicket(new StudentTicket(120.00));
         testCountry.printInfo();
     }
 
