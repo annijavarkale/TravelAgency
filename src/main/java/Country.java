@@ -1,3 +1,6 @@
+import tickets.Ticket;
+import transport_types.Transportation;
+
 import java.util.ArrayList;
 
 public class Country {
@@ -9,6 +12,8 @@ public class Country {
     private ArrayList<String> languages;
     private double area;
     private int population;
+    private Ticket ticket;
+    private Transportation transportation;
 
     public Country(String officialName, String commonName, String countryCode,
                    String cca2, ArrayList<String> currencies,
@@ -21,6 +26,16 @@ public class Country {
         this.languages = languages;
         this.area = area;
         this.population = population;
+        ticket = null;
+        transportation = null;
+    }
+
+    public void setTicket(Ticket ticket) {
+        this.ticket = ticket;
+    }
+
+    public void setTransportation(Transportation transportation) {
+        this.transportation = transportation;
     }
 
     private double populationDensity() {
