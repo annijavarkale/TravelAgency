@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1514326c-9b54-4085-a826-877daf9568b3" name="Changes" comment="Added abstact and interfaces">
+    <list default="true" id="1514326c-9b54-4085-a826-877daf9568b3" name="Changes" comment="Adjustments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Country.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TravelAgency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TravelAgency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tickets/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tickets/Ticket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +42,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager">
@@ -98,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665907313117</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adjustments">
+      <created>1665909588471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665909588471</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Added abstact and interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added abstact and interfaces" />
+    <MESSAGE value="Adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjustments" />
   </component>
 </project>

@@ -39,7 +39,7 @@ public class Country {
     }
 
     private double populationDensity() {
-        return area / population;
+        return population / area;
     }
 
     public void printInfo() {
