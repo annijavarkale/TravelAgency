@@ -15,7 +15,7 @@ public class GroupTicket extends Ticket {
         } else {
             discountPercentage = 25;
         }
-        return super.calculateDiscount()
+        return super.calculateDiscount();
     }
 
     @Override
